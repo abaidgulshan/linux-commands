@@ -33,3 +33,9 @@ Require valid-user
 Alias /phpmyadmin7iuhyY /usr/share/phpmyadmin
 ```
 * `sudo service apache2 restart`
+
+### Cron Jobs examples 
+
+Ubuntu 14.04 server crons jobs 
+* Open the crontab `vi /etc/crontab`
+* cron runs every month once `01 1    1 * *   root php /command`
