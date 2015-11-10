@@ -28,7 +28,7 @@ AuthUserFile /etc/apache2/.phpmyadmin.htpasswd
 Require valid-user
 ```
 * `sudo htpasswd -c /etc/apache2/.phpmyadmin.htpasswd username` --- add username and password after enter
-* `sudo vi /etc/phpmyadmin/config.inc.php` --- change the alias to access the phpmyadmin
+* `sudo vi /etc/phpmyadmin/apache.conf` --- change the alias to access the phpmyadmin
 ```
 Alias /phpmyadmin7iuhyY /usr/share/phpmyadmin
 ```
