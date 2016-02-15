@@ -1,6 +1,19 @@
 # linux-commands
 My Linux Commands 
 
+## Install Nginx 1.9 to ubuntu Manual way 
+```
+ echo "deb http://nginx.org/packages/mainline/ubuntu/ trusty nginx" | sudo tee -a /etc/apt/sources.list
+ echo "deb-src http://nginx.org/packages/mainline/ubuntu/ trusty nginx" | sudo tee -a /etc/apt/sources.list
+ cat /etc/apt/sources.list
+ wget -q -O- http://nginx.org/keys/nginx_signing.key | sudo apt-key add -
+ sudo apt-get update
+ sudo apt-get install nginx -y
+ nginx -v
+```
+
+
+
 * `history | awk '!($1="")'` --- When I dont need numbering with my history
 * Folder permissions
 ```
