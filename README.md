@@ -55,7 +55,7 @@ Ubuntu 14.04 server crons jobs
 
 ### Github Submodules
 
-* git clone git@github.com:test/buddy-works-test.git
-* git submodule add git@github.com:test/buddy-works-embed-test.git buddy-works-embed-test
-* git add --all && git commit -am "add submodule "
-* git push origin master
+* `git clone git@github.com:test/buddy-works-test.git`
+* `git submodule add git@github.com:test/buddy-works-embed-test.git buddy-works-embed-test`
+* `git add --all && git commit -am "add submodule "`
+* `git push origin master`
