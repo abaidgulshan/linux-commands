@@ -52,3 +52,10 @@ Alias /phpmyadmin7iuhyY /usr/share/phpmyadmin
 Ubuntu 14.04 server crons jobs 
 * Open the crontab `vi /etc/crontab`
 * cron runs every month once `01 1    1 * *   root php /command`
+
+### Github Submodules
+
+* git clone git@github.com:test/buddy-works-test.git
+* git submodule add git@github.com:test/buddy-works-embed-test.git buddy-works-embed-test
+* git add --all && git commit -am "add submodule "
+* git push origin master
