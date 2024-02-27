@@ -21,6 +21,10 @@ sudo chown -R www-data .
 sudo chgrp -R www-data .
 sudo chmod -R g+rwxs .
 ```
+
+### Generate Paid SSL on Apache 
+#### Generate CSR 
+* `openssl req -new -newkey rsa:2048 -nodes -keyout abaidgulshan.com.key -out abaidgulshan.com.csr`
 ### PHPmyadmin Security tips
 
 #### Add htaccess
