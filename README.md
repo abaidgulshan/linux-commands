@@ -25,6 +25,17 @@ sudo chmod -R g+rwxs .
 ### Generate Paid SSL on Apache 
 #### Generate CSR 
 * `openssl req -new -newkey rsa:2048 -nodes -keyout abaidgulshan.com.key -out abaidgulshan.com.csr`
+
+![image](https://github.com/abaidgulshan/linux-commands/assets/7329596/584a0b3e-6e53-4e40-93e4-bdcc695e3210)
+  ```
+  Country Name (2 letter code) [AU]:PK
+  State or Province Name (full name) [Some-State]:Punjab
+  Locality Name (eg, city) []:Lahore
+  Organization Name (eg, company) [Internet Widgits Pty Ltd]:myclouds
+  Organizational Unit Name (eg, section) []:Cloud Engineer
+  Common Name (e.g. server FQDN or YOUR name) []:*.abaidgulshan.com 
+  Email Address []:abaidgulshan@gmail.com
+  ```
 ### PHPmyadmin Security tips
 
 #### Add htaccess
